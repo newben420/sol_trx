@@ -25,5 +25,3 @@ if (parsedAccounts[sender] && parsedAccounts[recepient] && (amt ? (amt > 0) : fa
 else {
     console.log(`The correct syntax is node tr [sender_name] [rec_name] [amount]\n Both sender and rec must have been added to accounts.json, and amount must be greater than 0`)
 }
-// console.log(parsedAccounts);
-// console.log(arg);
